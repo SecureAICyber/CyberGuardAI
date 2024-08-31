@@ -66,3 +66,14 @@ pip install -r requirements.txt
 
 Run The application
 python src/main.py
+
+Usage
+    CyberGuardAI Cryptography: See src/cyberguardai/cryptography_service.py.
+    Network Scanning: Use src/cyberguardai/network_service.py to scan networks.
+    Anomaly Detection: Use src/cyberguardai/anomaly_detection_service.py for AI-driven threat detection.
+    
+Contributing
+Contributions are welcome! Please open an issue or submit a pull request.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
