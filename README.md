@@ -2,7 +2,7 @@
 # CyberGuardAI
 
 ## Overview
-**CyberGuardAI** is an advanced cybersecurity platform designed to integrate cutting-edge blockchain technology with artificial intelligence (AI) to provide comprehensive threat detection, automated response, and robust system security. The platform is built to evolve and expand, initially starting with the integration of Morpheus AI capabilities but designed to incorporate various AI-driven and blockchain-powered solutions over time.
+**CyberGuardAI** is an advanced modular cybersecurity platform designed to integrate cutting-edge blockchain technology with artificial intelligence (AI) to provide comprehensive threat detection, automated response, and robust system security. The platform is architected to evolve and expand, starting with the integration of Morpheus AI capabilities and further enhanced by specialized AI models and agents focused on specific cybersecurity tasks.
 
 ### Key Features:
 - **Blockchain Security**: Leverages blockchain for secure, immutable logging and decentralized authentication mechanisms.
@@ -12,7 +12,7 @@
 - **Integration Ready**: Initially focused on integrating Morpheus AI capabilities, with the flexibility to incorporate additional AI and security technologies in the future.
 
 ### Vision:
-CyberGuardAI aims to create a proactive, AI-driven cybersecurity solution that not only detects and mitigates threats but also adapts to the evolving landscape of cyber threats. By combining the transparency and security of blockchain with the intelligence and adaptability of AI, CyberGuardAI sets a new standard for digital protection.
+CyberGuardAI aims to create a proactive, AI-driven cybersecurity solution that not only detects and mitigates threats but also adapts to the evolving landscape of cyber threats. By combining the transparency and security of blockchain with the intelligence and adaptability of specialized AI models, CyberGuardAI sets a new standard for digital protection.
 
 ## Project Structure
 
@@ -22,8 +22,12 @@ The project is organized as follows:
 │   │   └── ci.yml
 │   └── ISSUE_TEMPLATE.md
 ├── src/
-│   ├── secureai/
+│   ├── cyberguardai/
 │   │   ├── __init__.py
+│   │   ├── ai_hub.py                      # Central AI Hub
+│   │   ├── smart_contracts_ai.py          # Specialized AI for Smart Contracts
+│   │   ├── deep_fake_detection_ai.py      # Specialized AI for Blockchain-Based Deep Fake Detection
+│   │   ├── shodan_prevention_ai.py        # Specialized AI for Shodan Detection Prevention
 │   │   ├── cryptography_service.py
 │   │   ├── network_service.py
 │   │   ├── anomaly_detection_service.py
@@ -41,12 +45,12 @@ The project is organized as follows:
 │   ├── test_anomaly_detection.py
 │   ├── test_authentication.py
 │   └── # Unit tests for anomaly detection 
-    │ ├── # Unit tests for authentication 
-    │ └── # Additional tests 
+│   └── # Unit tests for authentication 
+│   └── # Additional tests 
 ├── .gitignore
-├── Dockerfile # Docker configuration 
-├── README.md # Project documentation
-└── requirements.txt # Python dependencies
+├── Dockerfile                             # Docker configuration 
+├── README.md                              # Project documentation
+└── requirements.txt                       # Python dependencies
 
 
 ## Getting Started
