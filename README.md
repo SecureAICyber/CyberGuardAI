@@ -59,7 +59,7 @@ The project is organized as follows:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/CyberGuardAI.git
+   git clone https://github.com/SecureAICyber/CyberGuardAI.git
    cd CyberGuardAI
 ### Install dependencies
 pip install -r requirements.txt
