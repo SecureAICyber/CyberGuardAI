@@ -1,4 +1,4 @@
-# SecureAI-Cybersecurity-Solutions
+# SecureAI-Cybersecurity-Solutions-CyberGuardAI
 #├── .github/
 │   ├── workflows/
 │   │   └── ci.yml
